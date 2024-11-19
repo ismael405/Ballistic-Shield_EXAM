@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+  
+nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+nav ul li {
+    margin: 0 15px;
+  }
+  
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+nav ul li a:hover {
+    color: #f4b400;
+  }
+  
+.search-bar {
+    display: flex;
+  }
+  
+.search-bar input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+.search-bar button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #373737;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.search-bar button:hover {
+    background-color:#373737;
+  }
+  
+main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+.image {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin-bottom: 20px;
+  }
+  
+.produit {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+.produit img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+.produit img:hover {
+    transform: scale(1.05);
+  }
+  
+.prix {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+footer p {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+ 
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+.contact-info p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+  }
+  
+.contact-info strong {
+    font-weight: bold;
+  }
+  
+.social-icons {
+    display: flex;
+    gap: 20px;
+  }
+  
+.social-icon {
+    font-size: 30px; 
+    color: white;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
